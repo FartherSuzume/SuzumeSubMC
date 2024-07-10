@@ -1,0 +1,172 @@
+#minecraft-top{
+    display: flex;
+    justify-content: left;
+}
+#minecraft-top-image{
+    width: 60%;
+    margin-top: 64px;
+    margin-left: 0%;
+    position: relative;
+}
+#minecraft-top-text{
+    width: 45%;
+    height: auto;
+    background-color: azure;
+    color: black;
+    font-size: 28px;
+    text-align: left;
+    position: absolute;
+    top:180px;
+    left:50%;
+}
+#minecraft-top-text h1{
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+#minecraft-top-text h2{
+    margin-left: 10%;
+    font-size: 26px;
+}
+#header{
+    text-align: left;
+    margin-left: 60px;
+    font-size: 80px;
+    color: brown;
+}
+#Career{
+    margin-top: 30px;
+}
+.Career-box{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    margin-left: 120px;
+}
+.Career-head{
+    font-size: 50px;
+}
+.Career-text{
+    margin-left: 30px;
+    font-size: 50px;
+}
+.red{
+    color: red;
+}
+
+
+@media screen and (max-width: 1030px) {
+    #minecraft-top-image{
+        width: 100%;
+    }
+    #minecraft-top-text{
+        width: 80%;
+        height: auto;
+        top:500px;
+        left:10%;
+    }
+    #minecraft-top-text h1{
+        font-size: 30px;
+    }
+    #minecraft-top-text h2{
+        margin-left: 10%;
+        font-size: 20px;
+    }
+    #header{
+        margin-left: 30px;
+        font-size: 50px;
+    }
+    #Career{
+        margin-top: 160px;
+    }
+    .Career-box{
+        display: flex;
+        justify-content: left;
+        text-align: left;
+        margin-left: 45px;
+    }
+    .Career-head{
+        font-size: 45px;
+    }
+    .Career-text{
+        margin-left: 30px;
+        font-size: 45px;
+    }
+}
+/*スマートフォン用*/
+@media screen and (max-width: 760px) {
+    #minecraft-top-image{
+        width: 100%;
+    }
+    #minecraft-top-text{
+        width: 80%;
+        height: auto;
+        top:300px;
+        left:10%;
+    }
+    #minecraft-top-text h1{
+        font-size: 30px;
+    }
+    #minecraft-top-text h2{
+        margin-left: 10%;
+        font-size: 20px;
+    }
+    #header{
+        margin-left: 30px;
+        font-size: 50px;
+    }
+    #Career{
+        margin-top: 160px;
+    }
+    .Career-box{
+        display: flex;
+        justify-content: left;
+        text-align: left;
+        margin-left: 45px;
+    }
+    .Career-head{
+        font-size: 25px;
+    }
+    .Career-text{
+        margin-left: 30px;
+        font-size: 25px;
+    }
+}
+/*スマートフォン用*/
+@media screen and (max-width: 430px) {
+    #minecraft-top-image{
+        width: 100%;
+    }
+    #minecraft-top-text{
+        width: 90%;
+        height: auto;
+        top: 200px;;
+        left:5%;
+    }
+    #minecraft-top-text h1{
+        font-size: 24px;
+    }
+    #minecraft-top-text h2{
+        margin-left: 5%;
+        font-size: 15px;
+    }
+    #header{
+        margin-left: 15px;
+        font-size: 35px;
+    }
+    #Career{
+        margin-top: 100px;
+    }
+    .Career-box{
+        display: block;
+        justify-content: center;
+        text-align: left;
+        margin-left: 45px;
+    }
+    .Career-head{
+        font-size: 15px;
+    }
+    .Career-text{
+        margin-left: 30px;
+        font-size: 15px;
+    }
+}

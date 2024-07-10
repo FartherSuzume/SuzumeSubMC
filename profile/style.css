@@ -1,0 +1,109 @@
+/*アスキーコードをUTF-8に*/
+@charset "UTF-8";
+/*全要素の余白を0にする*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#profile-box{
+    padding-top: 7%;
+    margin-bottom: 5%;
+}
+
+#profile-box-3{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+#title{
+    font-size: 60px;
+}
+#icon{
+    margin-right: 30px;
+    height: 400px;
+    width: auto;
+    border-radius: 50%;
+    border: 5px solid gray;
+}
+#profile-img h1{
+    font-size: 20px;
+    margin-top: 32px;
+}
+#profile-text{
+    text-align: left;
+    margin-left: 50px;
+    font-size: 14px;
+}
+#profile-text h1{
+    margin-bottom: 16px;
+}
+#links{
+    margin:0 auto;
+    margin-bottom: 64px;
+    width: 70%;
+    border-radius: 5%;
+    border: 5px double black;
+}
+.links-1{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+.links-2{
+    margin-bottom: 2%;
+}
+.btn{
+    margin:0 auto;
+    text-decoration:none;
+}
+.links-page{
+    margin:0 auto;
+    width: 240px;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #eb6100;
+    border-bottom: 5px solid #b84c00;
+}
+.links-page:hover{ 
+    margin-top: 3px;
+    color: #fff;
+    background: #f56500;
+    border-bottom: 2px solid #b84c00;
+}
+#twitter-X-icon{
+    height: 24px;
+    width: auto;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+/*スマートフォン用*/
+@media screen and (max-width: 760px) {
+    #profile-box{
+        margin-top: 64px;
+    }
+    #profile-box-3{
+        display: block;
+    }
+    #profile-text{
+        margin-top: 40px;
+        padding-left: 30px;
+    }
+    #title{
+        font-size: 30px;
+    }
+    #icon{
+        margin-right: 0px;
+        height: 240px;
+        width: auto;
+    }
+    #profile-text{
+        margin-left: 0px;
+        font-size: 12px;
+    }
+    .links-1{
+        display: block;
+    }
+    
+}

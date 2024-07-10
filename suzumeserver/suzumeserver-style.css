@@ -1,0 +1,100 @@
+#top-img{
+    width: 100%;
+    height: auto;
+    margin-top: 64px;
+    position: relative;
+}
+#top-txt{
+    color: white;
+    font-size: 28px;
+    text-align: left;
+    position: absolute;
+    top:5%;
+    left:20%;
+}
+#top-txt h2{
+    font-size: 24px;
+}
+.suzumeserver-title{
+    text-align: left;
+    margin-left: 15%;
+    font-size: 48px;
+}
+.suzumeserver-subtitle{
+    text-align: left;
+    margin-left: 20%;
+    font-size: 24px;
+}
+.links{
+    width: 720px;
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+    margin-top: 16px;
+    margin-bottom: 64px;
+}
+.btn{
+    text-decoration:none;
+    margin:0 auto;
+}
+.links-page{
+    margin:0 auto;
+    width: 240px;
+    text-decoration:none;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #eb6100;
+    border-bottom: 5px solid #b84c00;
+}
+.links-page:hover{
+    margin-top: 3px;
+    color: #fff;
+    background: #f56500;
+    border-bottom: 2px solid #b84c00;
+}
+#img{
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+    margin-top: 16px;
+    margin-bottom: 64px;
+}
+.images{
+    margin:0 auto;
+    width: 320px;
+    text-decoration:none;
+    border-radius: 15px;
+    color: #fff;
+}
+
+
+/*スマートフォン用*/
+@media screen and (max-width: 760px) {
+    #top-txt{
+        top:0;
+        left:0;
+        display: none;
+    }
+    .suzumeserver-title{
+        margin-left: 5%;
+        font-size: 30px;
+    }
+    .suzumeserver-subtitle{
+        margin-left: 8%;
+        font-size: 20px;
+    }
+    .links{
+        width: 100%;
+        display: block;
+    }
+    .links-page{
+        margin-top: 20px;
+    }
+    #img{
+        display: block;
+        margin-top: 30px;
+    }
+    .images{
+        margin-top: 12px;
+    }
+}
